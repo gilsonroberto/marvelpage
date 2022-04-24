@@ -36,3 +36,15 @@ export const MenuNavigation = styled.div`
     
   }
 `;
+
+export const LogoBox = styled.div`
+  background-color: #ff0000;
+  width: 25vh;
+  height: 10vh;
+`;
+
+export const TextMarvel = styled.p`
+  font-family: MarvelRegular;
+  font-size: 11vh;
+  margin: 10px;
+`;
