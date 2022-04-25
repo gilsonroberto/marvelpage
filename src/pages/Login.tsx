@@ -1,5 +1,6 @@
-import { useNavigate } from 'react-router-dom'
 import '../styles/login.scss';
+
+import { useNavigate } from 'react-router-dom'
 import LogoMarvel from '../components/LogoMarvel';
 import { InputMarvel } from '../components/InputMarvel'
 import { ButtonMarvel } from '../components/ButtonMarvel'
@@ -7,8 +8,12 @@ import { CheckBoxMarvel } from '../components/CheckBoxMarvel'
 
 
 export const Login = () => {
-    const navigate = useNavigate();
 
+    const navigate = useNavigate();
+    const handleNavigation = () => {
+        navigate('/main')
+    }
+    
   return (
     <div>
         <div className='login-effect'></div>
@@ -26,12 +31,12 @@ export const Login = () => {
                                 <CheckBoxMarvel id="save" type="checkbox" />
                                 <label htmlFor='save'>Salvar Login</label>
                             </div>
-                            <a className="forgot-data" href="/login">Esqueci a Senha</a>
+                            <a className="forgot-data" href="/">Esqueci a Senha</a>
                         </div>
-                        <ButtonMarvel type="submit">Entrar</ButtonMarvel>
+                        <ButtonMarvel onClick={() => handleNavigation()} type="submit">Entrar</ButtonMarvel>
                         <div className="register">
                             <p>Ainda não tem o login?</p>
-                            <a href="/login" >Cadastre-se</a>
+                            <a href="/" >Cadastre-se</a>
                         </div>
                     </form>
                 </div>

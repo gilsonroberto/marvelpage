@@ -11,12 +11,14 @@ export const LogotipoMarvelMenu = styled.div`
     width: 80%;
   }
 
-  p{
+  span {
     position: relative;
     top: 5px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 0px;
+    text-decoration: none;
+    cursor: pointer;
   }
 `;
 
@@ -47,4 +49,27 @@ export const TextMarvel = styled.p`
   font-family: MarvelRegular;
   font-size: 11vh;
   margin: 10px;
+`;
+
+export const LeftArrow = styled.div`
+  position: fixed;
+  top: 50vh;
+  left: 20px;
+  cursor: pointer;
+
+  img {
+    font-size: 50px
+  }
+`;
+
+export const RightArrow = styled.div`
+  position: fixed;
+  top: 50vh;
+  right: 20px;
+  cursor: pointer;
+
+  img {
+    font-size: 50px
+  }
+
 `;

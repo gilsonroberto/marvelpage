@@ -1,0 +1,115 @@
+.shadow {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 45%,
+      rgba(33, 33, 33, 0.9) 70%,
+      rgba(128, 128, 128, 0.2) 100%
+    );
+}
+
+.content {
+    display: flex;
+}
+
+.main {
+    height: 400px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.image-character {
+    height: 100%;
+    width: 100%;
+}
+
+.description-card {
+    position: relative;
+    bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,0,0,0) 100%);
+
+    h4{
+        margin: 10px;
+    }
+
+    p{
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
+    p:last-child{
+        margin-top: auto;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+}
+
+.description {
+    position: relative;
+    right: 20px;
+    height: 400px;
+    width: 250px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(61,0,0,1) 100%);
+}
+
+.content-description{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 30px;
+
+    h3 , h4{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    li{
+        margin-left: -25px;
+    }
+
+    div:last-child{
+            margin-top: auto;
+    }
+}
+
+.close {
+    position: absolute;
+    left: 215px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.section-character {
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+.container-character {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

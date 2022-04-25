@@ -43,9 +43,12 @@
     flex-basis: 50%;
     position: relative;
     z-index: 3;
+    padding-top: 15vh;
+    padding-left: 15vh;
 
     @media (max-width: 767px) {
-        width: 0%;
+      width: 0%;
+      padding-left: 2vh;
     }
 }
   

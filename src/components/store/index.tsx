@@ -5,7 +5,7 @@ const INITIAL_STATE = {
     data: [
         {
             'title': 'Personagens',
-            'url': '/google'
+            'url': '/main'
         },
         {
             'title': 'Filmes',
