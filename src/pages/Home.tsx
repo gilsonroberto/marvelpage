@@ -5,6 +5,7 @@ import '../styles/global.scss';
 import { LogotipoMarvelMenu, MenuNavigation } from '../styled-components/styles'
 import { useSelector } from 'react-redux'
 import { SectionCharacter } from '../components/SectionCharacter'
+import { SectionMovies } from '../components/SectionMovies'
 
 export const Home = () => {
     const navigate = useNavigate()
@@ -20,6 +21,7 @@ export const Home = () => {
     useEffect(function () {
         switch (check) {
           case 'Personagens': setPage(<SectionCharacter />); setCheck(check); break;
+          case 'Filmes': setPage(<SectionMovies />); setCheck(check); break;
           default: setPage(<SectionCharacter />); setCheck('Personagens'); break;
         }
     }, [check])

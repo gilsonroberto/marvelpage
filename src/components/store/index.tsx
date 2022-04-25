@@ -9,7 +9,7 @@ const INITIAL_STATE = {
         },
         {
             'title': 'Filmes',
-            'url': '/google'
+            'url': '/main'
         },
         {
             'title': "HQ's",
