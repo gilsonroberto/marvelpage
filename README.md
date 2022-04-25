@@ -29,7 +29,7 @@
 
 <p align="justify">
   Este projeto consiste em construir uma aplicação interativa com os personagens da Marvel, mais especificamente X-men.
-  Vamos utilizar os seguintes arquivos para construir a aplicação:arrow_forward
+  Vamos utilizar os seguintes arquivos para construir a aplicação :arrow_forward:
 
   - [Design](https://drive.google.com/file/d/1-sGLbiaqb_EIskfje4uJzsxSSxLW-wbe/view?usp=sharing) 
   - [Fontes](https://drive.google.com/file/d/1J0ZGvaQczX68yFLDnp9Ma0O2xmneh8Bb/view?usp=sharing)
