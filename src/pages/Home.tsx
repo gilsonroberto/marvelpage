@@ -6,6 +6,7 @@ import { LogotipoMarvelMenu, MenuNavigation } from '../styled-components/styles'
 import { useSelector } from 'react-redux'
 import { SectionCharacter } from '../components/SectionCharacter'
 import { SectionMovies } from '../components/SectionMovies'
+import { SectionHq } from '../components/SectionHq'
 
 export const Home = () => {
     const navigate = useNavigate()
@@ -22,6 +23,7 @@ export const Home = () => {
         switch (check) {
           case 'Personagens': setPage(<SectionCharacter />); setCheck(check); break;
           case 'Filmes': setPage(<SectionMovies />); setCheck(check); break;
+          case "HQ's": setPage(<SectionHq />); setCheck(check); break;
           default: setPage(<SectionCharacter />); setCheck('Personagens'); break;
         }
     }, [check])
@@ -33,7 +35,7 @@ export const Home = () => {
                 <div className='menu_div'>
                     <div className='menu_div_col1'>
                         <LogotipoMarvelMenu>
-                            <span onClick={() => navigate('/home')}>MARVEL</span>
+                            <span onClick={() => handleNavigation('/main', 'Personagens')}>MARVEL</span>
                         </LogotipoMarvelMenu>
                     </div>
                     <nav className='menu_div_col2'>

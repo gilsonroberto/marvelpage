@@ -13,7 +13,7 @@ const INITIAL_STATE = {
         },
         {
             'title': "HQ's",
-            'url': '/google'
+            'url': '/main'
         }
     ],
 };

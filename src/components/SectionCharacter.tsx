@@ -100,7 +100,7 @@ export function SectionCharacter() {
       <div className='container-character'>
         {charArray.slice((count-1)*3,((count-1)*3)+3)}
       </div>
-      <RightArrow style={{display: charArray.slice((count-1)*3,((count-1)*3)+3).length === 3 ? 'initial' : 'none'}} onClick={()=>handleArrow('right')}>
+      <RightArrow style={{display: charArray.slice((count-1)*3,((count-1)*3)+3).length > 3 ? 'initial' : 'none'}} onClick={()=>handleArrow('right')}>
         <img src={right} alt='Seta Direita' />
       </RightArrow>
     </section>
