@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+  '<h1># Desafio Front-end 👩‍💻</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+    <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+    <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white">
+    <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+    <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+  </p>
 
-## Available Scripts
+  > Status do Projeto: :warning: Em Desenvolvimento
 
-In the project directory, you can run:
+  ### Tópicos 
 
-### `yarn start`
+  :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  :small_blue_diamond: [Layout](#layout)
 
-### `yarn test`
+  :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
-### `yarn build`
+## Descrição do projeto 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="justify">
+  Este projeto consiste em construir uma aplicação interativa com os personagens da Marvel, mais especificamente X-men.
+  Vamos utilizar os seguintes arquivos para construir a aplicação:arrow_forward
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - [Design](https://drive.google.com/file/d/1-sGLbiaqb_EIskfje4uJzsxSSxLW-wbe/view?usp=sharing) 
+  - [Fontes](https://drive.google.com/file/d/1J0ZGvaQczX68yFLDnp9Ma0O2xmneh8Bb/view?usp=sharing)
+  - [Fontes 2](https://drive.google.com/file/d/1SCIvJoXnRljB_5lfAH_snHnF8ohQNuOr/view?usp=sharing)
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ## Funcionalidades
 
-### `yarn eject`
+  - ReactJS :heavy_check_mark:
+  - TypeScript :heavy_check_mark:
+  - Redux (useContext, useSelector) :heavy_check_mark:
+  - Styled Components :heavy_check_mark:
+  - Responsividade :heavy_check_mark:
+  - Organização do projeto :heavy_check_mark:
+  - Código limpo :heavy_check_mark:
+  - Documentação do projeto :heavy_check_mark:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  ## Layout 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ![image](https://user-images.githubusercontent.com/30843584/165183489-30a023df-a40b-45ab-826d-e389ba53ead1.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ![image](https://user-images.githubusercontent.com/30843584/165183524-cb9f1c48-8175-4ec6-91c3-985ef985020b.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ![image](https://user-images.githubusercontent.com/30843584/165183563-0d68f8a1-73e2-4003-a8bf-9b481aaaefd8.png)
 
-## Learn More
+  ![image](https://user-images.githubusercontent.com/30843584/165183624-4a9669ae-7e4f-4905-b626-9fbafe5946df.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ![image](https://user-images.githubusercontent.com/30843584/165183654-f3cf55a5-9703-4bdb-aee1-011771c476ff.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ## Pré-requisitos
+
+  :warning: [Node](https://nodejs.org/en/download/)<br/>
+  :warning: [styled-components](https://styled-components.com/)<br/>
+  :warning: [react-redux](https://react-redux.js.org/introduction/getting-started)<br/>
+  :warning: [react-router-dom](https://reactrouter.com/docs/en/v6/getting-started/installation)<br/>
+  :warning: [typescript](https://www.typescriptlang.org/download)<br/>
+  :warning: [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)<br/>
+
+  ## Como rodar a aplicação :arrow_forward:
+
+  No terminal, clone o projeto: 
+
+  ```
+  git clone https://github.com/gilsonroberto/marvelpage.git
+  ```
+  Em sequida entre no diretório do projeto:
+
+  ```
+  cd marvelpage/
+  ```
+  Na sequencia instale todas dependencias do projeto com:
+
+  ```
+  yarn install
+  ```
+  Para rodar o projeto use o comando:
+
+  ```
+  yarn starte
+  ```
+
+  
+  ## Tarefas em aberto
+
+  :memo: Responsividade em toda a aplicação 
+
+  :memo: Ajustes no dimensionamento de algums componentes 
+
+  :memo: Melhorias na rota da aplicação
+
+  ## Desenvolvedores/Contribuintes :octocat:
+
+  | [<img src="https://avatars.githubusercontent.com/u/30843584?v=4" width=115><br><sub>Gilson Roberto</sub>](https://github.com/gilsonroberto) |  [<img src="https://avatars.githubusercontent.com/u/30843584?v=4" width=115><br><sub>Gilson Roberto</sub>](https://github.com/gilsonroberto) |  [<img src="https://avatars.githubusercontent.com/u/30843584?v=4" width=115><br><sub>Gilson Roberto</sub>](https://github.com/gilsonroberto) |
+  | :---: | :---: | :---: 
+
+  ## Licença 
+
+  The [MIT License]() (MIT)
+
+  Copyright :copyright: 2022 - # Desafio Front-end 👩‍💻
+'
